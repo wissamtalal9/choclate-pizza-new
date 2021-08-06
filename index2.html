@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/wissam.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -16,39 +17,44 @@
 
 <body>
     <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="">
-            <div>
-                <h2>Delicious</h2>
-                <p>THE BEST FOOD BLOG ON THE WEB</p>
-            </div>
-        </div>
-        <ul>
-            <li>
-                <img src="img/fb-icon.png" alt="">
-            </li>
-            <li><img src="img/twit-icon.png" alt=""></li>
-            <li><img src="img/gp-icon.png" alt=""></li>
-            <li><img src="img/insta-icon.png" alt=""></li>
-            <li><img src="img/flic-icon.png" alt=""></li>
-            <li><img src="img/pint-icon.png" alt=""></li>
-            <li><img src="img/rss-icon.png" alt=""></li>
-            <li><img src="img/mail-icon.png" alt=""></li>
-        </ul>
 
+        <dic class="ulheader">
+            <p><img src="./img/logo.png"></p>
+            <p class="plogo"><span>Delicious</span><br> THE BEST FOOD BLOG ON THE WEB</p>
+            <ul class="ulmain">
+                <li>
+                    <img src="img/fb-icon.png" alt="">
+                </li>
+                <li> <img src="img/twit-icon.png" alt="">
+                </li>
+                <li> <img src="img/gp-icon.png" alt="">
+                </li>
+                <li> <img src="img/insta-icon.png" alt="">
+                </li>
+                <li> <img src="img/flic-icon.png" alt="">
+                </li>
+                <li> <img src="img/pint-icon.png" alt="">
+                </li>
+
+                <li style="margin-left: 20px;"> <img src="img/rss-icon.png" alt="">
+                </li>
+                <li> <img src="img/mail-icon.png" alt="">
+                </li>
+            </ul>
     </header>
 
-    <div class="line"></div>
+    <div class="lineheader"></div>
 
     <section>
         <div>
             <h1>CHOCLATE PIZZA</h1>
             <p>POSTED IN 15 DEC 2013 / DESERTS</p>
-            <div><img src="img/print-icon.png" alt=""></div>
+            <div style="float: right;margin-top: -90px;"><img src="./img/pint-icon.png" alt=""></div>
         </div>
+        <div>
 
         <img src="img/choco-pizza.png" alt="">
-
+    </div>
 
     </section>
 
@@ -70,8 +76,8 @@
     </section>
 
     <section>
-        <div class="list">
-            <ul class="left">
+        <div class="listCheckBox">
+            <ul class="leftCheckBox">
                 <li>
                     <input type="checkbox">
                     <label for="">11/ cups milk</label>
@@ -97,7 +103,7 @@
                 </li>
             </ul>
 
-            <ul class="right">
+            <ul class="rightCheckBox">
                 <li>
                     <input type="checkbox">
                     <label for="">11/ cups milk</label>
@@ -128,24 +134,20 @@
 
     </section>
 
-    <div class="line"></div>
+    <div class="lineheader"></div>
 
-    <section>
-        <div>
-            <img src="img/van-pic.png" alt="">
-            <div>
-                <h3>Vennessa Stevanasson</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore facilis exercitationem accusamus
-                    architecto harum? Dignissimos earum consectetur voluptatibus praesentium exercitationem, </p>
-            </div>
-        </div>
-        <div><button>SHARE RECIPE</button></div>
-
-    </section>
+    <div id="grid">
+        <div id="item1"><img src="./img/van-pic.png" alt=""></div>
+        <div id="item2"><h3>Vennessa Stevanasson</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore facilis exercitationem accusamus
+                architectoconsectetur voluptatibus praesentium exercitationem, </p>
+     </div>
+        <div id="item3"><button>SHARE RECIPE</button></div>
+      </div>
 
     <footer>
-        <img src="img/small-logo.png" alt="">
-        <p class="parag">dillicous &copy; 2013 - All Right Reserved</p>
+        <img src="./img/small-logo.png" alt="">
+        <p class="footerp">dillicous &copy; 2013 - All Right Reserved</p>
         <p>proudly puplish with Ghost</p>
     </footer>
 </body>
